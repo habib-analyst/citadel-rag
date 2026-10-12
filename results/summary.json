@@ -1,0 +1,40 @@
+{
+ "n_scenarios": 34,
+ "n_dev_pairs": 30,
+ "n_test_pairs": 72,
+ "test_label_counts": {
+  "contradiction": 17,
+  "neutral": 38,
+  "entailment": 17
+ },
+ "tuned_thresholds": {
+  "tau_contra": 0.5,
+  "tau_entail": 0.5
+ },
+ "system_dev_f1": 1.0,
+ "system_test": {
+  "precision": 1.0,
+  "recall": 0.9412,
+  "f1": 0.9697,
+  "tp": 16,
+  "fp": 0,
+  "fn": 1,
+  "n": 72
+ },
+ "baseline_tfidf": {
+  "lo": 0.4,
+  "hi": 1.0,
+  "dev_f1": 0.72,
+  "test": {
+   "precision": 0.4444,
+   "recall": 0.7059,
+   "f1": 0.5455,
+   "tp": 12,
+   "fp": 15,
+   "fn": 5,
+   "n": 72
+  }
+ },
+ "f1_gap_pp": 42.42,
+ "kill_gate_pass": true
+}
